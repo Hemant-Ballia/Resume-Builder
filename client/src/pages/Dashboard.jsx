@@ -6,7 +6,9 @@ import {
   PencilIcon,
   XIcon,
   UploadCloud,
+  LoaderCircleIcon
 } from "lucide-react";
+
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -275,7 +277,7 @@ const Dashboard = () => {
                     )}
                   </div>
                 </label>
-                {/* Yahan par actual file input add kiya gaya hai */}
+                {/*  actual file input added */}
                 <input
                   type="file"
                   id="resume-input"
